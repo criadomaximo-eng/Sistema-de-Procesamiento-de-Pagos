@@ -30,7 +30,6 @@ public abstract class Pago
         double comision = CalcularComision();
         double montoFinal = monto + comision;
 
-        Console.WriteLine("===== SISTEMA DE PAGOS =====");
         Console.WriteLine("Titular: " + titular);
         Console.WriteLine("Monto original: $" + monto);
         Console.WriteLine("Procesando pago...");
